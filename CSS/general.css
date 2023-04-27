@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+/* GENRAL REUSABLE COMPONENTS */
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.heading-title {
+  font-size: 4rem;
+  font-style: normal;
+  line-height: 5.2rem;
+  font-weight: 700;
+  width: 327px;
+  text-align: center;
+}
+
+.heading-subtitle {
+  font-style: normal;
+  color: #172b4d;
+  font-size: 2rem;
+  line-height: 28px;
+  text-align: center;
+  width: 327px;
+}
