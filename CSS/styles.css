@@ -176,6 +176,15 @@
   background-color: #36b37f;
 }
 
+.btn:hover {
+  background-color: #008552;
+}
+
+.btn:active {
+  background-color: #36b37f;
+}
+
+
 /* About me section */
 .about-me {
   padding: 2.4rem 0;
