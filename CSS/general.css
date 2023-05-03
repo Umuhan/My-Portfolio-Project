@@ -89,3 +89,7 @@ body {
 .margin-bottom-md {
   margin-bottom: 6.4rem !important;
 }
+
+::placeholder {
+  color: #6b778c;
+}
