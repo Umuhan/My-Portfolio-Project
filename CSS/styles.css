@@ -178,8 +178,13 @@
 }
 
 .btn:hover {
+  background: #36B37F;
+}
+
+.btn:active {
   background: #008552;
 }
+
 
 /* About me section */
 .about-me {
