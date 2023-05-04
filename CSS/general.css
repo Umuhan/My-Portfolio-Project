@@ -24,12 +24,13 @@ body {
 }
 
 .heading-title {
-  font-size: 4rem;
+  font-size: 40px;
   font-style: normal;
-  line-height: 5.2rem;
+  line-height: 52px;
   font-weight: 700;
-  width: 327px;
+  width: 447px;
   text-align: center;
+  color: #172b4d;
 }
 
 .heading-subtitle {

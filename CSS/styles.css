@@ -59,7 +59,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 2.5rem;
-  color: #333;
+  color: #505f79;
   transition: all 0.3s;
 }
 
@@ -199,7 +199,7 @@
 }
 
 .about-me-subtitle {
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 32px;
   text-align: center;
   color: #42526e;
@@ -254,14 +254,14 @@
 /* Get in touch */
 
 .contact-form {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   width: 80%;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 5rem; */
 }
 
 .form {
@@ -269,7 +269,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 23px;
 }
 
 .user-name,
@@ -316,5 +316,76 @@
 }
 
 .footer {
-  margin-bottom: 32px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .headline {
+    background-image: url(../images/Header-llustration-desktop@2x.png);
+    background-position: top;
+  }
+  .headline-container {
+    padding: 13rem;
+  }
+
+  .heading-title {
+    width: 700px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .heading-subtitle {
+    width: 700px;
+    line-height: 32px;
+  }
+
+  .about-me-subtitle {
+    width: 920px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-form {
+    margin: 0 auto;
+    /* flex-direction: row;
+    padding: 2.4rem 3.2rem;
+    margin-bottom: 5rem;*/
+    width: 80%;
+  }
+
+  .contact-header {
+    font-size: 30px;
+    /* width: 400px; */
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .user-name,
+  .email,
+  .msg {
+    width: 500px;
+  }
+
+  .my-email-contact {
+    display: none;
+  }
+
+  .footer {
+    border-top: 1px solid #555;
+  }
 }
