@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hi Microverse <a name="about-project"></a>
+# 📖 My Portfolio <a name="about-project"></a>
 
-> This is my new project I created it using HTML and CSS.
+> This is my new project I created it using HTML and CSS. I created using mobile first and added media query to be a responsive web design which is creating web pages that look good on all devices
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,6 +61,7 @@
 
 - Added index.html file.
 - Added styles.css file.
+- Added Media query for the desktop version.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +85,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Umuhan/Hi-Microverse.git
+  git clone git@github.com:Umuhan/My-Portfolio-Project.git
 ```
 
 ### Install
@@ -130,9 +131,10 @@ Open index.html using live server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]Add Header.
+- [ ] Add Header.
 - [ ] Add footer.
 - [ ] Add more styles.
+- [ ] Add javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
