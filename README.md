@@ -5,7 +5,7 @@
   <img src="./Hanny.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hi Microverse</b></h3>
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
@@ -158,7 +158,7 @@ If you like this project give it a thumbs up 👍.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse , my coding partner and Omar Muhamud.
+I would like to thank Microverse and my coding partners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
