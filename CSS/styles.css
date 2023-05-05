@@ -386,6 +386,8 @@
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
+    animation-name: color-animation;
+    animation-duration: 2s;
   }
 
   .heading-subtitle {
