@@ -1,5 +1,10 @@
 /* HEADER */
 
+.menu {
+  width: 4rem;
+  height: 4rem;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -7,9 +12,15 @@
   padding: 1.6rem;
 }
 
-.menu {
-  width: 4rem;
-  height: 4rem;
+.nav-contact {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  list-style: none;
 }
 
 /* HEADLINE SECTION */
@@ -59,7 +70,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 2.5rem;
-  color: #333;
+  color: #505f79;
   transition: all 0.3s;
 }
 
@@ -93,6 +104,7 @@
 }
 
 /* MY RECENT WORK */
+
 .recent-work {
   padding: 2.4rem 0;
 }
@@ -186,6 +198,7 @@
 }
 
 /* About me section */
+
 .about-me {
   padding: 2.4rem 0;
 }
@@ -199,7 +212,7 @@
 }
 
 .about-me-subtitle {
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 32px;
   text-align: center;
   color: #42526e;
@@ -253,15 +266,22 @@
 
 /* Get in touch */
 
-.contact-form {
+.form-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 5rem;
+  gap: 58px;
+}
+
+.contact-header {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  font-weight: 700;
+  width: 327px;
+  text-align: center;
+  color: #172b4d;
 }
 
 .form {
@@ -269,7 +289,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 23px;
 }
 
 .user-name,
@@ -295,12 +315,12 @@
   line-height: 24px;
 }
 
-.contact-header {
+/* .contact-header {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-}
+} */
 
 .my-email-contact {
   text-align: center;
@@ -316,5 +336,87 @@
 }
 
 .footer {
-  margin-bottom: 32px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .nav-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    color: #505f79;
+    text-decoration: none;
+  }
+
+  .nav-item {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 10px;
+    list-style: none;
+  }
+
+  .headline {
+    background-image: url(../images/Header-llustration-desktop@2x.png);
+    background-position: top;
+  }
+
+  .headline-container {
+    padding: 13rem;
+  }
+
+  .heading-title {
+    width: 700px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .heading-subtitle {
+    width: 700px;
+    line-height: 32px;
+  }
+
+  .about-me-subtitle {
+    width: 920px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .form-flex {
+    flex-direction: row;
+    padding: 4.2rem;
+  }
+
+  .contact-header {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .user-name,
+  .email,
+  .msg {
+    width: 100%;
+  }
+
+  .my-email-contact {
+    display: none;
+  }
+
+  .footer {
+    border-top: 1px solid #555;
+  }
 }
