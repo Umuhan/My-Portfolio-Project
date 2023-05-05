@@ -1,5 +1,10 @@
 /* HEADER */
 
+.menu {
+  width: 4rem;
+  height: 4rem;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -7,9 +12,15 @@
   padding: 1.6rem;
 }
 
-.menu {
-  width: 4rem;
-  height: 4rem;
+.nav-contact {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+  list-style: none;
 }
 
 /* HEADLINE SECTION */
@@ -331,6 +342,24 @@
 @media screen and (min-width: 768px) {
   .menu {
     display: none;
+  }
+
+  .nav-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    color: #505f79;
+    text-decoration: none;
+  }
+
+  .nav-item {
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 10px;
+    list-style: none;
   }
 
   .headline {
