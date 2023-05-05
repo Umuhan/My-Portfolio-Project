@@ -253,15 +253,23 @@
 
 /* Get in touch */
 
-.contact-form {
-  /* display: flex;
+.form-flex {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 5rem; */
+  gap: 58px;
+  /* max-width: 37.5rem; */
+}
+
+.contact-header {
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  font-weight: 700;
+  width: 327px;
+  text-align: center;
+  color: #172b4d;
 }
 
 .form {
@@ -295,12 +303,12 @@
   line-height: 24px;
 }
 
-.contact-header {
+/* .contact-header {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-}
+} */
 
 .my-email-contact {
   text-align: center;
@@ -353,22 +361,21 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .form-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+  .form-flex {
+    flex-direction: row;
+    padding: 4.2rem;
   }
 
   .contact-form {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* flex-direction: row;
     padding: 2.4rem 3.2rem;
     margin-bottom: 5rem;*/
-    width: 80%;
   }
 
   .contact-header {
     font-size: 30px;
-    /* width: 400px; */
+    width: 90%;
   }
 
   .form {
@@ -378,7 +385,7 @@
   .user-name,
   .email,
   .msg {
-    width: 500px;
+    width: 100%;
   }
 
   .my-email-contact {
