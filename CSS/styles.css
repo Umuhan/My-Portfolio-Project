@@ -93,6 +93,7 @@
 }
 
 /* MY RECENT WORK */
+
 .recent-work {
   padding: 2.4rem 0;
 }
@@ -186,6 +187,7 @@
 }
 
 /* About me section */
+
 .about-me {
   padding: 2.4rem 0;
 }
@@ -259,7 +261,6 @@
   justify-content: center;
   align-items: center;
   gap: 58px;
-  /* max-width: 37.5rem; */
 }
 
 .contact-header {
@@ -336,6 +337,7 @@
     background-image: url(../images/Header-llustration-desktop@2x.png);
     background-position: top;
   }
+
   .headline-container {
     padding: 13rem;
   }
@@ -364,13 +366,6 @@
   .form-flex {
     flex-direction: row;
     padding: 4.2rem;
-  }
-
-  .contact-form {
-    /* margin: 0 auto; */
-    /* flex-direction: row;
-    padding: 2.4rem 3.2rem;
-    margin-bottom: 5rem;*/
   }
 
   .contact-header {
