@@ -69,7 +69,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://umuhan.github.io/My-Portfolio-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
