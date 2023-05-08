@@ -371,12 +371,24 @@
     padding: 13rem;
   }
 
+  @keyframes color-animation {
+    from {
+      color: papayawhip;
+    }
+
+    to {
+      color: #36b37e;
+    }
+  }
+
   .heading-title {
     width: 700px;
     font-weight: 800;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
+    animation-name: color-animation;
+    animation-duration: 2s;
   }
 
   .heading-subtitle {
