@@ -45,7 +45,7 @@
 2. CSS.
 3. Linters.
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack" href="https://www.loom.com/share/e34a29bc8199466885642ca811e27744" >A walk through the project</a>
 
 <details>
   <summary>Client</summary>
