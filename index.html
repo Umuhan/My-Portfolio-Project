@@ -17,19 +17,25 @@
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
     <title>Portfolio</title>
+    <script src="main.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
     <header class="header">
       <nav class="navbar">
         <div>
-          <ion-icon class="menu" name="menu-outline"></ion-icon>
+          <ion-icon
+            aria-controls="contact-bar"
+            class="menu-toggle"
+            name="menu-outline"
+            aria-expanded="false"
+          ></ion-icon>
         </div>
       </nav>
     </header>
 
     <div>
-      <ul class="nav-contact">
+      <ul id="contact-bar" data-visible="false" class="nav-contact">
         <li class="nav-item">
           <a class="nav-link" href="#porfolior">Portfolio</a>
         </li>
