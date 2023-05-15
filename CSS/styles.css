@@ -6,14 +6,12 @@
   height: 4rem;
   padding-right: 24px;
 }
-
 .navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 46px 1.6rem;
 }
-
 .nav-contact {
   display: flex;
   align-items: flex-end;
@@ -23,16 +21,15 @@
   flex-direction: column;
   padding: 92px;
   transform: translateX(100%);
+  transition: transform 0.3s ease;
 }
-.nav-contact [data-visible="true"] {
+.nav-contact[data-visible="true"] {
   transform: translateX(0%);
 }
-
 a {
   color: #3a4a42;
   text-decoration: none;
 }
-
 .nav-item {
   font-weight: 600;
   font-size: 32px;
