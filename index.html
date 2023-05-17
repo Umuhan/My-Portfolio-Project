@@ -17,31 +17,31 @@
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/styles.css" />
     <title>Portfolio</title>
+    <script src="main.js" defer></script>
   </head>
   <body>
     <!-- Navigation -->
-    <header class="header">
-      <nav class="navbar">
-        <div>
-          <ion-icon class="menu" name="menu-outline"></ion-icon>
+    <header class="header dark maxwidth">
+      <nav class="navbar nav">
+        <div class="burger-btn">
+          <div class="nav__burger"></div>
         </div>
       </nav>
+
+      <div>
+        <ul id="contact-bar" data-visible="false" class="nav-contact nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </header>
-
-    <div>
-      <ul class="nav-contact">
-        <li class="nav-item">
-          <a class="nav-link" href="#porfolior">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#pricing">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cta">Contact</a>
-        </li>
-      </ul>
-    </div>
-
     <!-- Headline -->
     <section class="section1 headline">
       <div class="container headline-container">
@@ -96,7 +96,7 @@
     <!-- My Recent works -->
     <section class="section2 recent-work">
       <div class="container">
-        <div class="recent-work-header">
+        <div id="work" class="recent-work-header">
           <h2 class="heading-title">My Recent Works</h2>
           <div class="green-line margin-top-md"></div>
         </div>
@@ -205,7 +205,7 @@
     <section class="section3 about-me">
       <div class="about-me-img margin-bottom-md">
         <div class="container">
-          <div class="about-me-header">
+          <div id="about" class="about-me-header">
             <h2 class="heading-title">About me</h2>
             <p class="about-me-subtitle">
               I can help you build a product, feature or website Look through
@@ -267,7 +267,7 @@
     <!-- Get in touch -->
 
     <section class="contact-form">
-      <div class="container form-flex">
+      <div id="contact" class="container form-flex">
         <div>
           <h2 class="contact-header">
             I'm always interested in hearing about new projects, so if you'd

@@ -1,29 +1,128 @@
 /* HEADER */
 
-.menu {
-  width: 4rem;
-  height: 4rem;
-}
-
-.navbar {
+.header {
+  /* background-color: blueviolet; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 1.6rem;
+  top: 0;
+}
+
+.navbar {
+  display: block;
+  position: relative;
+}
+
+.burger-btn {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 0 10px;
+  z-index: 1;
+}
+
+.nav__burger,
+.nav__burger::before,
+.nav__burger::after {
+  opacity: 1;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.nav__burger::before,
+.nav__burger::after {
+  content: "";
+  position: absolute;
+}
+
+.nav__burger::before {
+  transform: translateY(-8px);
+}
+
+.nav__burger::after {
+  transform: translateY(8px);
+}
+
+.burger-btn.open .nav__burger {
+  background: transparent;
+}
+
+.burger-btn.open .nav__burger::before {
+  background-color: #333;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.burger-btn.open .nav__burger::after {
+  background: #333;
+  transform: rotate(-45deg);
+  z-index: 2;
 }
 
 .nav-contact {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: none;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  padding: 20px 0;
+  animation: showMenu 0.5s ease-in-out forwards;
+  transform: left center;
+  z-index: 1;
+}
+
+@keyframes showMenu {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.2);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+a {
+  color: #3a4a42;
+  text-decoration: none;
 }
 
 .nav-item {
+  display: block;
+  font-weight: 600;
+  font-size: 32px;
   margin: 0 10px;
+  line-height: 44px;
   list-style: none;
+  padding: 20px;
+}
+
+.nav-contact.open {
+  display: block;
 }
 
 /* HEADLINE SECTION */
+
+.section1 {
+  margin-top: 1rem;
+}
 
 .headline {
   background-image: url(../images/header-illsutration-mobile@2x.png);
@@ -340,14 +439,23 @@
 }
 
 @media screen and (min-width: 768px) {
-  .menu {
+  .navbar {
     display: none;
   }
 
   .nav-contact {
     display: flex;
-    justify-content: center;
+
+    /* display: none; */
+    top: 30px;
+    width: 65%;
+    height: 65px;
+    background-color: white;
+    padding: 10px 0;
     align-items: center;
+    justify-content: end;
+    gap: 10px;
+    font-weight: bold;
   }
 
   a {
