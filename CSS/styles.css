@@ -439,7 +439,17 @@ a {
   }
 
   .nav-contact {
-    display: none;
+    display: flex;
+    /* display: none; */
+    top: 30px;
+    width: 65%;
+    height: 65px;
+    background-color: white;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    font-weight: bold;
   }
 
   a {
