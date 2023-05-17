@@ -440,6 +440,7 @@ a {
 
   .nav-contact {
     display: flex;
+
     /* display: none; */
     top: 30px;
     width: 65%;
