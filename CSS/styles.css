@@ -434,7 +434,9 @@ a {
 .model-section {
   position: relative;
   z-index: 2000;
+
   /* margin: 4rem 0; */
+
   /* top: 0;
   left: 0;
   bottom: 0;
@@ -525,7 +527,6 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-
   gap: 32px;
   padding: 10px;
 }
@@ -552,7 +553,7 @@ a {
   gap: 8px;
 }
 
-.btn-live fa-thin {
+.btn-live .fa-thin {
   /* text-decoration: none; */
   color: red;
 }
