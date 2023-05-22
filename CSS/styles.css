@@ -1,7 +1,5 @@
 /* HEADER */
-
 .header {
-  /* background-color: blueviolet; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -296,7 +294,7 @@ a {
   background: #008552;
 }
 
-/* About me section */
+/* ABOUT ME SECTION */
 
 .about-me {
   padding: 2.4rem 0;
@@ -363,7 +361,7 @@ a {
   padding: 0.8rem 1.2rem;
 }
 
-/* Get in touch */
+/* GET IN TOUCH */
 
 .form-flex {
   display: flex;
@@ -414,13 +412,6 @@ a {
   line-height: 24px;
 }
 
-/* .contact-header {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-} */
-
 .my-email-contact {
   text-align: center;
   margin: 32px 0 32px 0;
@@ -445,8 +436,6 @@ a {
 
   .nav-contact {
     display: flex;
-
-    /* display: none; */
     top: 30px;
     width: 65%;
     height: 65px;
