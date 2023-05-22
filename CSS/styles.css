@@ -227,6 +227,7 @@ a {
   border-radius: 11px;
   max-width: 37.5rem;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 
 .project-img {
@@ -758,6 +759,13 @@ img {
   .heading-subtitle {
     width: 700px;
     line-height: 32px;
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2.4rem 0;
   }
 
   .about-me-subtitle {
