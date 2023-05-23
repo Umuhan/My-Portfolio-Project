@@ -701,19 +701,4 @@ a {
     gap: 40px;
   }
 
-  /* .model-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: ;
-    gap: 50px;
-  }
-
-  .desktop-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 32px;
-  } */
 }
