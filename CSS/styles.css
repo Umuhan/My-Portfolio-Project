@@ -698,6 +698,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    /* gap: 40px; */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .model-content {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .model-body h2 {
+    max-width: 400px;
+  }
+
+  .model-footer {
+    position: absolute;
+    top: calc(100% - 35rem);
+    right: 1rem;
+    width: 50%;
   }
 }
