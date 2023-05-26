@@ -258,6 +258,6 @@ function saveData() {
   return dataForm;
 }
 
-form.addEventListener("load", function () {
+form.addEventListener("submit", () => {
   const data = JSON.parse(localStorage.getItem("dataForm"));
 });
