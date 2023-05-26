@@ -225,8 +225,8 @@ a {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   border-radius: 11px;
-  max-width: 37.5rem;
-  margin: 0 auto;
+  max-width: 37rem;
+  margin: 54px 24px 24px 50px;
 }
 
 .project-img {
@@ -429,28 +429,22 @@ a {
   padding-bottom: 20px;
 }
 
-/* model */
-
+/* modal */
 .model-section {
   position: relative;
   z-index: 2000;
-
-  /* margin: 4rem 0; */
-
-  /* top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; */
 }
 
 .model {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
   z-index: 3000;
+  height: 90vh;
+  overflow-y: auto;
 }
 
 .model-close {
@@ -474,6 +468,7 @@ a {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  padding-left: 10px;
 }
 
 .model-body ul {
@@ -512,6 +507,10 @@ a {
   display: block;
 }
 
+.model-body .mobile-list li {
+  padding: 8px 2px;
+}
+
 .desktop-list {
   display: none;
 }
@@ -521,6 +520,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-left: 10px;
 }
 
 .model-footer {
@@ -634,6 +634,13 @@ a {
     line-height: 32px;
   }
 
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2.4rem 0;
+  }
+
   .about-me-subtitle {
     width: 920px;
   }
@@ -671,6 +678,10 @@ a {
   }
 
   /* modal */
+  .model-container {
+    padding-left: 13px;
+  }
+
   .mobile-img {
     display: none;
   }
@@ -688,22 +699,30 @@ a {
   }
 
   .model-body ul {
-    width: 510px;
+    width: 350px;
   }
 
-  /* .model-text {
+  .model-footer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: ;
-    gap: 50px;
-  }
-
-  .desktop-btn {
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    gap: 32px;
-  } */
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .model-content {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+
+  .model-body h2 {
+    max-width: 400px;
+  }
+
+  .model-footer {
+    position: absolute;
+    top: calc(100% - 35rem);
+    right: 1rem;
+    width: 50%;
+  }
 }
