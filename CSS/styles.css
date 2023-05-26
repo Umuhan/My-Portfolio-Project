@@ -444,7 +444,7 @@ a {
   background-color: #fff;
   z-index: 3000;
   height: 90vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .model-close {
@@ -468,6 +468,7 @@ a {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  padding-left: 10px;
 }
 
 .model-body ul {
@@ -519,6 +520,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-left: 10px;
 }
 
 .model-footer {
