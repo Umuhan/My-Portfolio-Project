@@ -229,6 +229,10 @@ const form = document.querySelector(".form");
 const email = document.querySelector(".email");
 const emailError = document.querySelector(".error");
 const textMsg = "Please write the email in lowercase";
+emailError.style.display = "flex"
+emailError.style.color = "red"
+emailError.style.fontSize = "16px"
+emailError.style.marginTop= "5px"
 
 form.addEventListener("submit", (e) => {
   if (email.value !== email.value.toLowerCase()) {
