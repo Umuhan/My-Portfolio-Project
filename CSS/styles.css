@@ -225,8 +225,8 @@ a {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   border-radius: 11px;
-  max-width: 37.5rem;
-  margin: 54px 24px 24px 24px;
+  max-width: 37rem;
+  margin: 54px 24px 24px 50px;
 }
 
 .project-img {
@@ -504,6 +504,11 @@ a {
 
 .mobile-list {
   display: block;
+  margin-left: 12px;
+}
+
+.model-body .mobile-list li {
+  padding: 8px 2px;
 }
 
 .desktop-list {
@@ -693,15 +698,13 @@ a {
   }
 
   .model-body ul {
-    width: 510px;
+    width: 350px;
   }
 
   .model-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* gap: 40px; */
   }
 }
 
