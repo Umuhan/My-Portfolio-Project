@@ -112,7 +112,7 @@ projects.forEach((project) => {
   // MODAL
   const displayPopup = (project) => {
     const dynamicSection = document.getElementById("dynamic-section");
-    const list = "";
+    // const list = '';
     project.technologies.map((technology) => `<li>${technology}</li>`);
 
     const sectioHTML = `
