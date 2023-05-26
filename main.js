@@ -261,3 +261,9 @@ function saveData() {
 form.addEventListener("submit", () => {
   const data = JSON.parse(localStorage.getItem("dataForm"));
 });
+
+if(data) {
+  formName.value = data.formName;
+  email.value = data.email;
+  formmsg.value = data.formmsg;
+}
