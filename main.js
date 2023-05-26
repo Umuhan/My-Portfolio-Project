@@ -229,6 +229,8 @@ const form = document.querySelector(".form");
 const email = document.querySelector(".email");
 const emailError = document.querySelector(".error");
 const textMsg = "Please write the email in lowercase";
+const formName = document.querySelector(".user-name");
+const formmsg = document.querySelector(".msg");
 
 form.addEventListener("submit", (e) => {
   if (email.value !== email.value.toLowerCase()) {
@@ -241,29 +243,21 @@ form.addEventListener("submit", (e) => {
   } else {
     emailError.style.display = "none";
     email.style.border = "1px solid green";
+
+    const dataForm = {
+      formName: formName.value,
+      email: email.value,
+      formmsg: formmsg.value,
+    };
+    localStorage.setItem("dataForm", JSON.stringify(dataForm));
   }
 });
 
-// preserving form data
-const formName = document.querySelector(".user-name");
-const formmsg = document.querySelector(".msg");
-
-function saveData() {
-  const dataForm = {
-    formName: formName.value,
-    email: email.value,
-    formmsg: formmsg.value,
-  };
-
-  return dataForm;
-}
-
-form.addEventListener("submit", () => {
+window.addEventListener("DOMContentLoaded", () => {
   const data = JSON.parse(localStorage.getItem("dataForm"));
+  if (data) {
+    formName.value = data.formName;
+    email.value = data.email;
+    formmsg.value = data.formmsg;
+  }
 });
-
-if(data) {
-  formName.value = data.formName;
-  email.value = data.email;
-  formmsg.value = data.formmsg;
-}
