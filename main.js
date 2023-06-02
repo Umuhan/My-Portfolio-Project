@@ -95,7 +95,7 @@ projects.forEach((project) => {
 
   const titleElement = document.createElement('h3');
   titleElement.classList.add('project-title');
-  titleElement.innerHTML = "Most-Post Storie's <br/> Gain+Glory";
+ titleElement.innerHTML = project.name;
   contentElement.appendChild(titleElement);
 
   const langListElement = document.createElement('ul');
