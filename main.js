@@ -5,8 +5,8 @@ const projects = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
 
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "./images/bookStore.jpg",
+      desktop: "./images/bookStore.jpg",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live1",
@@ -18,8 +18,8 @@ const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "./images/capStoneProject.png",
+      desktop: "./images/capStoneProject.png",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live2",
@@ -31,8 +31,8 @@ const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "../images/to-do-list-app.jpg",
+      desktop: "../images/to-do-list-app.jpg",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live2",
@@ -44,8 +44,8 @@ const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</br>, when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "../images/My-portfolio.jpg",
+      desktop: "../images/My-portfolio.jpg",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live2",
@@ -57,8 +57,8 @@ const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "../images/hello-microverse.png",
+      desktop: "../images/hello-microverse.png",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live2",
@@ -70,8 +70,8 @@ const projects = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</br> when an unknown printer took a galley of type and scrambled it 1960s with the relea </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: {
-      mobile: "./images/Snapshoot Portfolio (1).png",
-      desktop: "./images/Container/Snapshoot Portfolio.png",
+      mobile: "../images/webpack.png",
+      desktop: "../images/webpack.png",
     },
     technologies: ["Ruby on Rails", "CSS", "JavaScript", "HTML"],
     liveLink: "https://example.com/live2",
@@ -123,25 +123,25 @@ projects.forEach((project) => {
           <button class='model-close' type='button'>X</button>
           <img
           class="mobile-img"
-          src="${project.image.mobile}"
+          src="${projects.image.mobile}"
           alt="Model-image"
         />
         <img
           class="desktop-img"
-          src="${project.image.desktop}"
+          src="${projects.image.desktop}"
           alt=""
         />
         </div>
         <div class='model-body'>
-          <h2>${project.name}</h2>
+          <h2>${projects.name}</h2>
           <div class='desktop-list'>
             <ul id='desktop-componets'>
-            ${project.technologies.map((ele) => `<li>${ele}</>`).join("")} 
+            ${projects.technologies.map((ele) => `<li>${ele}</>`).join("")} 
             </ul>
           </div>
           <div class='mobile-list'>
             <ul id='mobile-componets'>
-            ${project.technologies.map((ele) => `<li>${ele}</>`).join("")}
+            ${projects.technologies.map((ele) => `<li>${ele}</>`).join("")}
             </ul>
           </div>
           

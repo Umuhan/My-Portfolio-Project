@@ -223,15 +223,13 @@ a {
 .project-box {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border: 1px solid #d0d9d4;
-  border-radius: 8px;
   border-radius: 11px;
   max-width: 37rem;
-  margin: 54px 24px 24px 50px;
+  margin: 54px 0 24px 54px;
 }
 
 .project-img {
   width: 100%;
-  background: #ebf0ee;
   height: 250px;
 }
 
